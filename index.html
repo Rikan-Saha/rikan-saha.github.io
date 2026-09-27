@@ -1,14 +1,1014 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" data-theme="dark">
 <head>
-    <title>Rikan Saha</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rikan Saha | Analytics & AI Engineer | Model Risk Management & GenAI</title>
+  
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" content="Portfolio of Rikan Saha - Specialist at Genpact, Analytics & AI Engineer specializing in Model Risk Management (MRM), GenAI, Agentic AI, LangGraph, RAG, and Python-driven Banking Analytics.">
+  <meta name="keywords" content="Rikan Saha, AI Engineer, Analytics Engineer, Model Risk Management, MRM, SR 11-7, GenAI, LLM, Agentic AI, LangGraph, RAG, Python, PySpark, Genpact, Portfolio">
+  <meta name="author" content="Rikan Saha">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rikan-saha.github.io/">
+  <meta property="og:title" content="Rikan Saha | Analytics & AI Engineer">
+  <meta property="og:description" content="Specialist at Genpact. Expert in Model Risk Management (MRM), GenAI, Agentic LLM Architectures, and Banking Analytics.">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rikan Saha | Analytics & AI Engineer">
+  <meta name="twitter:description" content="Specialist at Genpact. Expert in Model Risk Management (MRM), GenAI, Agentic LLM Architectures, and Banking Analytics.">
+
+  <!-- Google Fonts: Outfit & Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons for clean tech & UI badges -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <!-- Background Ambient Glows -->
+  <div class="glow-orb orb-1" aria-hidden="true"></div>
+  <div class="glow-orb orb-2" aria-hidden="true"></div>
+  <div class="glow-orb orb-3" aria-hidden="true"></div>
 
-    <h1>Hello, World!</h1>
+  <!-- Toast Notification for Copy / Actions -->
+  <div id="toast" class="toast" role="status" aria-live="polite">
+    <i class="fa-solid fa-circle-check"></i>
+    <span id="toast-msg">Copied to clipboard!</span>
+  </div>
 
-    <p>Welcome to my website.</p>
+  <!-- Navigation Bar -->
+  <header class="navbar-wrapper">
+    <nav class="navbar container" aria-label="Main Navigation">
+      <a href="#hero" class="brand-logo" aria-label="Rikan Saha Home">
+        <span class="logo-bracket">&lt;</span><span class="logo-name">Rikan</span><span class="logo-dot">.</span><span class="logo-role">AI</span><span class="logo-bracket">/&gt;</span>
+      </a>
 
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#research" class="nav-link">Research</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="theme-toggle-btn" title="Toggle Theme" aria-label="Toggle dark and light theme">
+          <i class="fa-solid fa-moon dark-icon"></i>
+          <i class="fa-solid fa-sun light-icon"></i>
+        </button>
+
+        <!-- Resume CTA Button -->
+        <a href="assets/Rikan_Saha_CV.pdf" class="btn btn-outline btn-sm nav-resume-btn" target="_blank" rel="noopener noreferrer" download="Rikan_Saha_CV.pdf">
+          <i class="fa-solid fa-download"></i>
+          <span>Resume</span>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="status-pulse"></span>
+            <span>Specialist & SME @ Genpact</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Rikan Saha</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            <strong>Analytics & AI Engineer</strong> with 4 years of experience in <strong>Model Risk Management (MRM)</strong>, banking analytics, and AI-enabled product development. Specializing in <strong>Agentic AI</strong>, <strong>LangGraph + RAG pipelines</strong>, Python data engineering, and regulatory governance.
+          </p>
+
+          <div class="hero-tags">
+            <span class="tech-pill"><i class="fa-solid fa-robot"></i> Agentic AI & LLMs</span>
+            <span class="tech-pill"><i class="fa-solid fa-diagram-project"></i> LangGraph + RAG</span>
+            <span class="tech-pill"><i class="fa-solid fa-shield-halved"></i> Model Risk (SR 11-7)</span>
+            <span class="tech-pill"><i class="fa-brands fa-python"></i> Python & PySpark</span>
+            <span class="tech-pill"><i class="fa-solid fa-chart-line"></i> Banking Analytics</span>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore Projects</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="assets/Rikan_Saha_CV.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer" download="Rikan_Saha_CV.pdf">
+              <i class="fa-solid fa-file-arrow-down"></i>
+              <span>Download CV</span>
+            </a>
+            <a href="#contact" class="btn btn-ghost">
+              <i class="fa-regular fa-envelope"></i>
+              <span>Get In Touch</span>
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://linkedin.com/in/Rikan-Saha" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn Profile" aria-label="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Rikan-Saha" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub Profile" aria-label="GitHub Profile">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://kaggle.com/Rikan-Saha" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Kaggle Profile" aria-label="Kaggle Profile">
+              <i class="fa-brands fa-kaggle"></i>
+            </a>
+            <a href="https://leetcode.com/u/RikS369/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LeetCode Profile" aria-label="LeetCode Profile">
+              <i class="fa-solid fa-code"></i>
+            </a>
+            <a href="mailto:rikansaha1998@gmail.com" class="social-icon-btn" title="Send Email" aria-label="Email Address">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-card-container">
+          <div class="glass-card hero-preview-card">
+            <div class="card-header-bar">
+              <div class="window-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="card-file-label">rikan_profile.py</span>
+            </div>
+
+            <div class="code-snippet">
+              <pre><code><span class="code-keyword">class</span> <span class="code-class">AIAnalyticsEngineer</span>:
+    <span class="code-keyword">def</span> <span class="code-func">__init__</span>(self):
+        self.name = <span class="code-str">"Rikan Saha"</span>
+        self.role = <span class="code-str">"Specialist | Genpact"</span>
+        self.experience = <span class="code-str">"4 Years"</span>
+        self.domain = [<span class="code-str">"Model Risk Management (MRM)"</span>, 
+                       <span class="code-str">"US Banking Regulatory"</span>,
+                       <span class="code-str">"Enterprise GenAI"</span>]
+        self.ai_stack = [<span class="code-str">"LangGraph"</span>, <span class="code-str">"RAG"</span>, <span class="code-str">"Multi-Agent"</span>,
+                         <span class="code-str">"Azure OpenAI"</span>, <span class="code-str">"FAISS"</span>]
+        self.education = <span class="code-str">"M.Tech (CSE) - UCSTA"</span>
+
+    <span class="code-keyword">def</span> <span class="code-func">deliver_impact</span>(self):
+        <span class="code-keyword">return</span> {
+            <span class="code-str">"automation"</span>: <span class="code-str">"End-to-End AI & Data Pipelines"</span>,
+            <span class="code-str">"compliance"</span>: <span class="code-str">"SR 11-7 / SR 26-2 Ready"</span>,
+            <span class="code-str">"publication"</span>: <span class="code-str">"IEEE Access (2023)"</span>
+        }</code></pre>
+            </div>
+
+            <!-- Metric Highlights -->
+            <div class="card-stats-grid">
+              <div class="stat-box">
+                <span class="stat-number">4</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">6+</span>
+                <span class="stat-label">AI & Risk Projects</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">2x</span>
+                <span class="stat-label">Awards & Recognitions</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">1</span>
+                <span class="stat-label">IEEE Publication</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section container">
+      <div class="section-header">
+        <span class="section-subtitle">Background & Focus</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text-col">
+          <p class="lead-text">
+            I am a results-driven <strong>Analytics & AI Engineer</strong> with 4 years of experience in <strong>Model Risk Management (MRM)</strong>, with prior experience supporting major North American banking clients and a current focus on AI-driven analytics solutions.
+          </p>
+          <p>
+            My core specialization spans Python-driven data analytics, statistical model development, regulatory reporting (SR 11-7, SR 26-2), and AI-enabled process automation. I have designed and deployed end-to-end intelligent solutions across risk and product domains—integrating automated data pipelines, <strong>LangGraph multi-agent workflows</strong>, <strong>RAG architectures</strong>, and interactive decision-support dashboards.
+          </p>
+          <p>
+            With an academic background in <strong>M.Tech & M.Sc in Computer Science & Engineering</strong> from the University of Calcutta (UCSTA) and a peer-reviewed publication in <strong>IEEE Access</strong>, I combine rigorous theoretical foundations with enterprise engineering rigor to build scalable, audit-ready AI systems.
+          </p>
+
+          <div class="key-highlights-list">
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fa-solid fa-brain"></i></div>
+              <div>
+                <h4>Agentic AI & LLM Systems</h4>
+                <p>Architecting multi-agent workflows, contextual RAG systems, and intelligent attestation engines using LangGraph, FAISS, and Azure OpenAI.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fa-solid fa-landmark"></i></div>
+              <div>
+                <h4>Model Risk Management & Banking</h4>
+                <p>Deep expertise in model risk aggregation, MRM governance (KRIs, MRMC, MSMM), SR 11-7 compliance, and credit risk modeling (PD, LGD, EAD, ECL).</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fa-solid fa-chart-pie"></i></div>
+              <div>
+                <h4>Data Engineering & Scalable Analytics</h4>
+                <p>High-throughput data pipelines, distributed processing with PySpark, econometric time-series forecasting, and audit-ready Power-BI reporting.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-info-col">
+          <div class="glass-card personal-info-card">
+            <h3 class="card-title"><i class="fa-solid fa-address-card"></i> Quick Facts</h3>
+            
+            <ul class="info-list">
+              <li>
+                <span class="info-label"><i class="fa-solid fa-briefcase"></i> Current Role:</span>
+                <span class="info-val">Specialist (SME) @ Genpact</span>
+              </li>
+              <li>
+                <span class="info-label"><i class="fa-solid fa-location-dot"></i> Location:</span>
+                <span class="info-val">Kolkata, India</span>
+              </li>
+              <li>
+                <span class="info-label"><i class="fa-solid fa-graduation-cap"></i> Highest Degree:</span>
+                <span class="info-val">M.Tech in CSE (UCSTA)</span>
+              </li>
+              <li>
+                <span class="info-label"><i class="fa-solid fa-envelope"></i> Email:</span>
+                <span class="info-val copyable-val" data-copy="rikansaha1998@gmail.com" title="Click to copy">
+                  rikansaha1998@gmail.com <i class="fa-regular fa-copy"></i>
+                </span>
+              </li>
+              <li>
+                <span class="info-label"><i class="fa-solid fa-phone"></i> Phone:</span>
+                <span class="info-val copyable-val" data-copy="+919831641934" title="Click to copy">
+                  +91-9831641934 <i class="fa-regular fa-copy"></i>
+                </span>
+              </li>
+              <li>
+                <span class="info-label"><i class="fa-brands fa-linkedin"></i> LinkedIn:</span>
+                <span class="info-val"><a href="https://linkedin.com/in/Rikan-Saha" target="_blank" rel="noopener noreferrer">linkedin.com/in/Rikan-Saha</a></span>
+              </li>
+              <li>
+                <span class="info-label"><i class="fa-brands fa-github"></i> GitHub:</span>
+                <span class="info-val"><a href="https://github.com/Rikan-Saha" target="_blank" rel="noopener noreferrer">github.com/Rikan-Saha</a></span>
+              </li>
+              <li>
+                <span class="info-label"><i class="fa-brands fa-kaggle"></i> Kaggle:</span>
+                <span class="info-val"><a href="https://kaggle.com/Rikan-Saha" target="_blank" rel="noopener noreferrer">kaggle.com/Rikan-Saha</a></span>
+              </li>
+              <li>
+                <span class="info-label"><i class="fa-solid fa-code"></i> LeetCode:</span>
+                <span class="info-val"><a href="https://leetcode.com/u/RikS369/" target="_blank" rel="noopener noreferrer">leetcode.com/Rikan-Saha</a></span>
+              </li>
+            </ul>
+
+            <div class="resume-download-box">
+              <a href="assets/Rikan_Saha_CV.pdf" class="btn btn-primary btn-block" target="_blank" rel="noopener noreferrer" download="Rikan_Saha_CV.pdf">
+                <i class="fa-solid fa-download"></i> Download Full Resume (PDF)
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Career Path</span>
+          <h2 class="section-title">Professional Experience</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="timeline">
+          <!-- Experience 1 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Specialist</h3>
+                  <span class="timeline-company"><i class="fa-solid fa-building"></i> Genpact</span>
+                  <span class="timeline-location"><i class="fa-solid fa-location-dot"></i> Kolkata, India</span>
+                </div>
+                <div class="timeline-date-badge">
+                  <i class="fa-regular fa-calendar"></i> November 2024 - Present
+                </div>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Serving as a <strong>Subject Matter Expert (SME)</strong> in the <strong>Model Risk Management (MRM)</strong> domain for AI-driven product development initiatives within the Risk Analytics and Management service line.
+                </p>
+                <ul class="bullet-list">
+                  <li>Contributing to end-to-end implementation and deployment of AI/ML-enabled analytics solutions.</li>
+                  <li>Leading requirement analysis, feature design, solution architecture, and User Acceptance Testing (UAT).</li>
+                  <li>Bridging technical AI capabilities (LLMs, Agentic workflows) with rigorous banking compliance standards.</li>
+                </ul>
+                <div class="card-tags">
+                  <span class="tag">MRM SME</span>
+                  <span class="tag">AI Product Development</span>
+                  <span class="tag">Risk Analytics</span>
+                  <span class="tag">Feature Design</span>
+                  <span class="tag">UAT</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Business Analyst</h3>
+                  <span class="timeline-company"><i class="fa-solid fa-building"></i> Genpact</span>
+                  <span class="timeline-location"><i class="fa-solid fa-location-dot"></i> Kolkata, India</span>
+                </div>
+                <div class="timeline-date-badge">
+                  <i class="fa-regular fa-calendar"></i> September 2022 - October 2024
+                </div>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Led model risk aggregation, assessment, and regulatory reporting for a <strong>major North American bank</strong>, managing model inventory systems and delivering automated, audit-ready reporting solutions.
+                </p>
+                <ul class="bullet-list">
+                  <li>Developed Python- and Agentic-AI-driven solutions, including dashboards, automated data pipelines, and AI applications to enable insight generation, workflow automation, and data-driven decision-making.</li>
+                  <li>Streamlined quarter-end volume spikes during regulatory reporting cycles through intelligent automation and robust data validation.</li>
+                </ul>
+
+                <div class="card-tags">
+                  <span class="tag">Model Risk Aggregation</span>
+                  <span class="tag">Regulatory Reporting</span>
+                  <span class="tag">Python Automation</span>
+                  <span class="tag">Power-BI</span>
+                  <span class="tag">North American Banking</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Overall Genpact Awards & Achievements Banner -->
+        <div class="experience-awards-wrapper" style="max-width: 860px; margin: 1.75rem auto 0 auto;">
+          <div class="award-box glass-card" style="margin: 0;">
+            <div class="award-icon"><i class="fa-solid fa-trophy"></i></div>
+            <div class="award-details">
+              <strong>Awards & Achievements @ Genpact</strong>
+              <p>Received <strong>two performance recognitions</strong> across tenure at Genpact for automating key operational processes (Python, MS-Excel, Power-BI) and delivering high-quality model inventory enhancements while efficiently managing quarter-end volume spikes in regulatory reporting cycles.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section container">
+      <div class="section-header">
+        <span class="section-subtitle">Portfolio of Work</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">End-to-end applications and systems built across GenAI, multi-agent frameworks, risk analytics, and machine learning.</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="filter-container">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="agentic-ai">Agentic AI & GenAI</button>
+        <button class="filter-btn" data-filter="risk-analytics">Risk & Banking Analytics</button>
+        <button class="filter-btn" data-filter="ml-forecast">ML & Macro Analytics</button>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card glass-card" data-category="agentic-ai">
+          <div class="project-badge"><i class="fa-solid fa-robot"></i> Agentic AI / RAG</div>
+          <h3 class="project-title">Agentic AI Review Attestation Assistant</h3>
+          <p class="project-tech-stack">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">SQLite</span>
+            <span class="tech-badge">LangGraph + RAG</span>
+            <span class="tech-badge">Streamlit</span>
+            <span class="tech-badge">Azure OpenAI</span>
+          </p>
+          <p class="project-desc">
+            Designed and developed a web-based application to streamline the annual model review attestation process using Python, SQLite, Streamlit, and an agentic LLM + RAG-based pipeline.
+          </p>
+          <ul class="project-highlights">
+            <li>Enabled end-to-end workflow execution through an interactive frontend with optimized SQL queries and context-aware recommendations.</li>
+            <li>Integrated chatbot interface querying internal & external data sources, improving data consistency across Model Developer and Validator reviews.</li>
+          </ul>
+          <div class="project-footer">
+            <span class="project-domain"><i class="fa-solid fa-layer-group"></i> MRM Governance & Automation</span>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card glass-card" data-category="agentic-ai">
+          <div class="project-badge"><i class="fa-solid fa-brain"></i> Multi-Agent Platform</div>
+          <h3 class="project-title">Enterprise Product Intelligence Platform</h3>
+          <p class="project-tech-stack">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">FastAPI</span>
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">NLP</span>
+            <span class="tech-badge">LangGraph + RAG</span>
+            <span class="tech-badge">Azure OpenAI</span>
+            <span class="tech-badge">FAISS</span>
+          </p>
+          <p class="project-desc">
+            Designed and deployed an AI-powered Product Intelligence Platform to automate large-scale customer feedback analysis via semantic embeddings, K-Means clustering, LLM summarization, and RAG.
+          </p>
+          <ul class="project-highlights">
+            <li>Implemented a LangGraph-based multi-agent architecture integrating Recommendation, Business Impact, and Validation agents.</li>
+            <li>Coupled with a FAISS-backed knowledge base to produce grounded, explainable, and business-prioritized recommendations, accelerating product decisions.</li>
+          </ul>
+          <div class="project-footer">
+            <span class="project-domain"><i class="fa-solid fa-chart-line"></i> Enterprise Product Analytics</span>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card glass-card" data-category="risk-analytics">
+          <div class="project-badge"><i class="fa-solid fa-shield-halved"></i> Governance & Analytics</div>
+          <h3 class="project-title">AI-Enabled Model Risk Analytics Platform</h3>
+          <p class="project-tech-stack">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">SQLite</span>
+            <span class="tech-badge">LLM</span>
+            <span class="tech-badge">Power-BI</span>
+            <span class="tech-badge">OOP</span>
+          </p>
+          <p class="project-desc">
+            Designed and developed an automated model lifecycle reporting and analytics solution supporting Model Risk Management (MRM) governance workflows (KRIs, MRMC, MSMM).
+          </p>
+          <ul class="project-highlights">
+            <li>Engineered multi-source data integration and data quality enhancement pipelines using object-oriented Python and SQLite.</li>
+            <li>Enabled automated reporting and agent-based cross-report analysis using LLM reasoning to generate risk insights aligned with Model Risk Appetite thresholds and regulatory requirements.</li>
+          </ul>
+          <div class="project-footer">
+            <span class="project-domain"><i class="fa-solid fa-building-columns"></i> Model Risk Governance</span>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card glass-card" data-category="risk-analytics">
+          <div class="project-badge"><i class="fa-solid fa-chart-pie"></i> Credit Risk / Big Data</div>
+          <h3 class="project-title">Credit Risk Modeling & ECL Framework</h3>
+          <p class="project-tech-stack">
+            <span class="tech-badge">PySpark (pyspark.ml)</span>
+            <span class="tech-badge">Plotly</span>
+            <span class="tech-badge">MLflow</span>
+            <span class="tech-badge">Logistic Regression</span>
+          </p>
+          <p class="project-desc">
+            Designed and developed an end-to-end Credit Risk Modeling solution to estimate Probability of Default (PD), Loss Given Default (LGD), Exposure at Default (EAD), and Expected Credit Loss (ECL).
+          </p>
+          <ul class="project-highlights">
+            <li>Executed PySpark-based distributed data processing, automated feature engineering, and Logistic Regression on large-scale financial datasets.</li>
+            <li>Enabled automated risk scoring, borrower segmentation, expected loss estimation, and interactive Plotly risk storytelling dashboards.</li>
+          </ul>
+          <div class="project-footer">
+            <span class="project-domain"><i class="fa-solid fa-scale-balanced"></i> Financial Credit Modeling</span>
+          </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="project-card glass-card" data-category="ml-forecast">
+          <div class="project-badge"><i class="fa-solid fa-arrow-trend-up"></i> Macro Forecasting</div>
+          <h3 class="project-title">Market Regime Analytics & Forecasting</h3>
+          <p class="project-tech-stack">
+            <span class="tech-badge">Python (OOP)</span>
+            <span class="tech-badge">SQLite</span>
+            <span class="tech-badge">Scikit-Learn</span>
+            <span class="tech-badge">Statsmodels</span>
+            <span class="tech-badge">Power-BI</span>
+          </p>
+          <p class="project-desc">
+            Designed and developed an end-to-end macroeconomic analytics solution to identify market regimes (Expansion, Recession, Stagflation) using clustering on IMF datasets.
+          </p>
+          <ul class="project-highlights">
+            <li>Incorporated feature engineering, K-Means regime detection, and time-series forecasting for GDP growth, inflation, and unemployment.</li>
+            <li>Integrated outputs into SQLite and built interactive Power-BI dashboards for forward-looking economic insights and decision support.</li>
+          </ul>
+          <div class="project-footer">
+            <span class="project-domain"><i class="fa-solid fa-globe"></i> Macroeconomics & Regime Analytics</span>
+          </div>
+        </article>
+
+        <!-- Project 6 -->
+        <article class="project-card glass-card" data-category="agentic-ai">
+          <div class="project-badge"><i class="fa-solid fa-cubes"></i> AI Engineering Suite</div>
+          <h3 class="project-title">Additional AI Engineering Systems</h3>
+          <p class="project-tech-stack">
+            <span class="tech-badge">FastAPI</span>
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">LangGraph</span>
+            <span class="tech-badge">RAG</span>
+            <span class="tech-badge">Azure OpenAI</span>
+            <span class="tech-badge">FAISS</span>
+          </p>
+          <p class="project-desc">
+            Engineered multiple modular AI solutions focusing on document intelligence, data validation, and developer productivity:
+          </p>
+          <ul class="project-highlights">
+            <li><strong>Agentic Multi-Index RAG System:</strong> Intelligent document retrieval with metadata-driven indexing and semantic reranking.</li>
+            <li><strong>AI-Powered Data Quality Accelerator:</strong> Automated anomaly detection and cleansing for enterprise data pipelines.</li>
+            <li><strong>AI-Based Coding Interface:</strong> Intelligent developer assistance and workflow automation tool.</li>
+          </ul>
+          <div class="project-footer">
+            <span class="project-domain"><i class="fa-solid fa-wand-magic-sparkles"></i> AI Engineering & Tooling</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Technical Proficiencies</span>
+          <h2 class="section-title">Skills & Capabilities</h2>
+          <div class="section-divider"></div>
+          <p class="section-desc">Comprehensive toolkit backed by hands-on delivery in banking analytics, AI engineering, and research.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: AI, LLMs & Agentic Systems -->
+          <div class="skill-category-card glass-card">
+            <div class="skill-category-header">
+              <div class="cat-icon ai-icon"><i class="fa-solid fa-brain"></i></div>
+              <h3>Agentic AI, GenAI & LLMs</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-pill">Agentic AI</span>
+              <span class="skill-pill">LangGraph</span>
+              <span class="skill-pill">LangChain</span>
+              <span class="skill-pill">RAG Architectures</span>
+              <span class="skill-pill">Large Language Models (LLMs)</span>
+              <span class="skill-pill">Generative AI</span>
+              <span class="skill-pill">Prompt Engineering</span>
+              <span class="skill-pill">Multi-Agent Systems</span>
+              <span class="skill-pill">FAISS</span>
+              <span class="skill-pill">pgvector</span>
+              <span class="skill-pill">Vector Databases</span>
+              <span class="skill-pill">Transformers</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Model Development & Risk Analytics -->
+          <div class="skill-category-card glass-card">
+            <div class="skill-category-header">
+              <div class="cat-icon risk-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <h3>Model Risk & Analytics</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-pill">Model Risk Management (MRM)</span>
+              <span class="skill-pill">Model Development</span>
+              <span class="skill-pill">Risk Analytics</span>
+              <span class="skill-pill">Credit Risk (PD, LGD, EAD, ECL)</span>
+              <span class="skill-pill">Machine Learning</span>
+              <span class="skill-pill">Deep Learning</span>
+              <span class="skill-pill">Reinforcement Learning</span>
+              <span class="skill-pill">Time Series Forecasting</span>
+              <span class="skill-pill">Statistical Analysis</span>
+              <span class="skill-pill">Exploratory Data Analysis (EDA)</span>
+              <span class="skill-pill">Data Quality Enhancement</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Programming & Libraries -->
+          <div class="skill-category-card glass-card">
+            <div class="skill-category-header">
+              <div class="cat-icon dev-icon"><i class="fa-brands fa-python"></i></div>
+              <h3>Programming & Data Libraries</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-pill">Python (OOP)</span>
+              <span class="skill-pill">PySpark (pyspark.ml)</span>
+              <span class="skill-pill">Pandas</span>
+              <span class="skill-pill">NumPy</span>
+              <span class="skill-pill">Scikit-learn</span>
+              <span class="skill-pill">TensorFlow</span>
+              <span class="skill-pill">SQL</span>
+              <span class="skill-pill">SQLite</span>
+              <span class="skill-pill">Streamlit</span>
+              <span class="skill-pill">FastAPI</span>
+              <span class="skill-pill">JavaScript</span>
+              <span class="skill-pill">HTML / CSS</span>
+              <span class="skill-pill">Plotly / Seaborn / Matplotlib</span>
+              <span class="skill-pill">Power-BI</span>
+              <span class="skill-pill">MS Excel</span>
+              <span class="skill-pill">Java / C / C++</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Cloud, Platforms & Frameworks -->
+          <div class="skill-category-card glass-card">
+            <div class="skill-category-header">
+              <div class="cat-icon cloud-icon"><i class="fa-solid fa-cloud"></i></div>
+              <h3>Cloud, Platforms & Governance</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-pill">Microsoft Azure</span>
+              <span class="skill-pill">Azure AI Foundry</span>
+              <span class="skill-pill">Azure OpenAI</span>
+              <span class="skill-pill">Azure App Service</span>
+              <span class="skill-pill">Azure Container Apps</span>
+              <span class="skill-pill">Hugging-Face</span>
+              <span class="skill-pill">Docker</span>
+              <span class="skill-pill">Git / GitHub</span>
+              <span class="skill-pill">SR 11-7 Framework</span>
+              <span class="skill-pill">SR 26-2 Framework</span>
+              <span class="skill-pill">DSA / DBMS / OOP / UML</span>
+              <span class="skill-pill">LaTeX</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH & PUBLICATIONS SECTION -->
+    <section id="research" class="section container">
+      <div class="section-header">
+        <span class="section-subtitle">Academic Contributions</span>
+        <h2 class="section-title">Research & Publications</h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Peer-reviewed research and applied algorithmic investigations.</p>
+      </div>
+
+      <!-- Publication Card -->
+      <div class="glass-card publication-featured-card">
+        <div class="pub-badge-wrapper">
+          <span class="badge-peer-reviewed"><i class="fa-solid fa-certificate"></i> Peer-Reviewed Journal</span>
+          <span class="badge-ieee">IEEE Access (2023)</span>
+        </div>
+
+        <h3 class="pub-title">Brain Tumour Segmentation Using S-Net and SA-Net</h3>
+        <p class="pub-authors">
+          <strong>Authors:</strong> S. Roy, <strong class="author-me">R. Saha</strong>, S. Sarkar, R. Mehera, R. K. Pal, and S. K. Bandyopadhyay
+        </p>
+        <p class="pub-meta">
+          <i class="fa-solid fa-book-open"></i> <em>IEEE Access</em>, vol. 11, pp. 28658-28679, 2023.
+        </p>
+        <p class="pub-abstract">
+          Proposes novel deep neural network architectures (S-Net and SA-Net) with attention mechanisms for accurate semantic segmentation of brain tumours in magnetic resonance imaging (MRI), improving delineation performance on clinical benchmark datasets.
+        </p>
+
+        <div class="pub-actions">
+          <a href="https://doi.org/10.1109/ACCESS.2023.3257722" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            <span>View on IEEE Xplore (DOI: 10.1109/ACCESS.2023.3257722)</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Academic Projects Grid -->
+      <div class="academic-projects-grid">
+        <div class="academic-project-card glass-card">
+          <div class="academic-year-badge">2022</div>
+          <h4 class="academic-proj-title">M.Tech. Research Project</h4>
+          <p class="academic-proj-topic">Image Semantic Segmentation using Reinforcement Learning</p>
+          <p class="academic-proj-sub">University of Calcutta (UCSTA)</p>
+          <p class="academic-proj-desc">Investigated deep reinforcement learning formulations and policy networks for boundary refinement and semantic segment delineation in computer vision.</p>
+        </div>
+
+        <div class="academic-project-card glass-card">
+          <div class="academic-year-badge">2020</div>
+          <h4 class="academic-proj-title">M.Sc. Research Project</h4>
+          <p class="academic-proj-topic">Target Coverage & Connectivity using ILP and Graph Algorithm</p>
+          <p class="academic-proj-sub">University of Calcutta (UCSTA)</p>
+          <p class="academic-proj-desc">Formulated Integer Linear Programming (ILP) models and combinatorial graph algorithms to optimize sensor deployment coverage and network connectivity.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION & CERTIFICATIONS SECTION -->
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Academic Background & Continuous Learning</span>
+          <h2 class="section-title">Education & Certifications</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="edu-cert-grid">
+          <!-- Education Column -->
+          <div class="edu-col">
+            <h3 class="subheading"><i class="fa-solid fa-graduation-cap"></i> Academic Qualifications</h3>
+            
+            <div class="edu-card-list">
+              <div class="edu-card glass-card">
+                <div class="edu-period">2020 - 2022</div>
+                <h4 class="edu-degree">M.Tech. in Computer Science & Engineering</h4>
+                <p class="edu-institution">University of Calcutta (UCSTA)</p>
+                <p class="edu-location"><i class="fa-solid fa-location-dot"></i> Kolkata, India</p>
+              </div>
+
+              <div class="edu-card glass-card">
+                <div class="edu-period">2018 - 2020</div>
+                <h4 class="edu-degree">M.Sc. in Computer Science</h4>
+                <p class="edu-institution">University of Calcutta (UCSTA)</p>
+                <p class="edu-location"><i class="fa-solid fa-location-dot"></i> Kolkata, India</p>
+              </div>
+
+              <div class="edu-card glass-card">
+                <div class="edu-period">2015 - 2018</div>
+                <h4 class="edu-degree">B.Sc. (Honours) in Computer Science</h4>
+                <p class="edu-institution">West Bengal State University</p>
+                <p class="edu-location"><i class="fa-solid fa-location-dot"></i> West Bengal, India</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications Column -->
+          <div class="cert-col">
+            <h3 class="subheading"><i class="fa-solid fa-certificate"></i> Online Certifications</h3>            <div class="certs-list">
+              <div class="cert-item glass-card">
+                <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-content">
+                  <h4>Advanced LangChain Techniques: Mastering RAG Application</h4>
+                  <div class="cert-meta">
+                    <span class="cert-issuer"><i class="fa-solid fa-tag"></i> Udemy</span>
+                    <a href="https://github.com/Rikan-Saha/Rikan-Saha/blob/main/Advanced%20LangChain%20Techniques.pdf" target="_blank" rel="noopener noreferrer" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cert-item glass-card">
+                <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-content">
+                  <h4>LangChain - Develop AI Agents with LangChain & LangGraph</h4>
+                  <div class="cert-meta">
+                    <span class="cert-issuer"><i class="fa-solid fa-tag"></i> Udemy</span>
+                    <a href="https://github.com/Rikan-Saha/Rikan-Saha/blob/main/LangChain%20-%20Develop%20AI%20Agents%20with%20LangChains%20%26%20LangGraph.pdf" target="_blank" rel="noopener noreferrer" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cert-item glass-card">
+                <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-content">
+                  <h4>The Agentic AI Engineering Masterclass 2026</h4>
+                  <div class="cert-meta">
+                    <span class="cert-issuer"><i class="fa-solid fa-tag"></i> Udemy</span>
+                    <a href="https://github.com/Rikan-Saha/Rikan-Saha/blob/main/Agentic%20AI%20Engineering.pdf" target="_blank" rel="noopener noreferrer" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cert-item glass-card">
+                <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-content">
+                  <h4>Hands-on approach to AI for real-world applications</h4>
+                  <div class="cert-meta">
+                    <span class="cert-issuer"><i class="fa-solid fa-building-columns"></i> IIT Kharagpur AI4ICPS</span>
+                    <a href="https://github.com/Rikan-Saha/Rikan-Saha/blob/main/IIT%20Kharagpur%20AI%20certificate.pdf" target="_blank" rel="noopener noreferrer" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cert-item glass-card">
+                <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-content">
+                  <h4>Vector Databases Fundamentals</h4>
+                  <div class="cert-meta">
+                    <span class="cert-issuer"><i class="fa-solid fa-tag"></i> Udemy</span>
+                    <a href="https://github.com/Rikan-Saha/Rikan-Saha/blob/main/Vector%20Databases%20Fundamental.pdf" target="_blank" rel="noopener noreferrer" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cert-item glass-card">
+                <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-content">
+                  <h4>LLM Fine Tuning on OpenAI</h4>
+                  <div class="cert-meta">
+                    <span class="cert-issuer"><i class="fa-solid fa-tag"></i> Udemy</span>
+                    <a href="https://github.com/Rikan-Saha/Rikan-Saha/blob/main/LLM%20Fine%20Tuning%20on%20OpenAl.pdf" target="_blank" rel="noopener noreferrer" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cert-item glass-card">
+                <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-content">
+                  <h4>Credit Risk Modeling in Python</h4>
+                  <div class="cert-meta">
+                    <span class="cert-issuer"><i class="fa-solid fa-tag"></i> Udemy</span>
+                    <a href="https://github.com/Rikan-Saha/Rikan-Saha/blob/main/Udemy_Credit_Risk.pdf" target="_blank" rel="noopener noreferrer" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cert-item glass-card">
+                <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-content">
+                  <h4>Mathematics - Basic to Advanced for Data Science & Gen AI</h4>
+                  <div class="cert-meta">
+                    <span class="cert-issuer"><i class="fa-solid fa-tag"></i> Udemy</span>
+                    <a href="https://github.com/Rikan-Saha/Rikan-Saha/blob/main/Mathematics%20for%20Data%20Science%20Certificate.pdf" target="_blank" rel="noopener noreferrer" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cert-item glass-card">
+                <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-content">
+                  <h4>Natural Language Processing with Python</h4>
+                  <div class="cert-meta">
+                    <span class="cert-issuer"><i class="fa-solid fa-tag"></i> Udemy</span>
+                    <a href="https://github.com/Rikan-Saha/Rikan-Saha/blob/main/Udemy_NLP_Python.pdf" target="_blank" rel="noopener noreferrer" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cert-item glass-card">
+                <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-content">
+                  <h4>JavaScript Basic for Beginners</h4>
+                  <div class="cert-meta">
+                    <span class="cert-issuer"><i class="fa-solid fa-tag"></i> Udemy</span>
+                    <a href="https://github.com/Rikan-Saha/Rikan-Saha/blob/main/JavaScript%20Basics%20for%20Beginners.pdf" target="_blank" rel="noopener noreferrer" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section container">
+      <div class="section-header">
+        <span class="section-subtitle">Get In Touch</span>
+        <h2 class="section-title">Contact & Connect</h2>
+        <div class="section-divider"></div>
+        <p class="section-desc">Feel free to reach out for collaboration opportunities, AI engineering initiatives, or inquiries.</p>
+      </div>
+
+      <div class="contact-card glass-card">
+        <div class="contact-grid">
+          <div class="contact-info-block">
+            <h3>Let's Build Intelligent Systems Together</h3>
+            <p>
+              Open to conversations on Model Risk Management, AI Product Architecture, Agentic AI, and scalable analytics solutions.
+            </p>
+
+            <div class="contact-methods">
+              <div class="contact-method-item">
+                <div class="method-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="method-body">
+                  <span class="method-label">Email Address</span>
+                  <div class="method-value-row">
+                    <a href="mailto:rikansaha1998@gmail.com" class="method-link">rikansaha1998@gmail.com</a>
+                    <button class="copy-btn" data-copy="rikansaha1998@gmail.com" title="Copy Email" aria-label="Copy Email">
+                      <i class="fa-regular fa-copy"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="method-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="method-body">
+                  <span class="method-label">Phone / WhatsApp</span>
+                  <div class="method-value-row">
+                    <a href="tel:+919831641934" class="method-link">+91-9831641934</a>
+                    <button class="copy-btn" data-copy="+919831641934" title="Copy Phone Number" aria-label="Copy Phone Number">
+                      <i class="fa-regular fa-copy"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="method-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="method-body">
+                  <span class="method-label">Location</span>
+                  <span class="method-link text-static">Kolkata, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-profiles-block">
+            <h3>Professional Profiles</h3>
+            <p>Connect with me across coding and professional networks:</p>
+
+            <div class="profile-cards-grid">
+              <a href="https://linkedin.com/in/Rikan-Saha" target="_blank" rel="noopener noreferrer" class="profile-link-card">
+                <div class="profile-icon linkedin-bg"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="profile-info">
+                  <span class="profile-platform">LinkedIn</span>
+                  <span class="profile-handle">in/Rikan-Saha</span>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square arrow-hint"></i>
+              </a>
+
+              <a href="https://github.com/Rikan-Saha" target="_blank" rel="noopener noreferrer" class="profile-link-card">
+                <div class="profile-icon github-bg"><i class="fa-brands fa-github"></i></div>
+                <div class="profile-info">
+                  <span class="profile-platform">GitHub</span>
+                  <span class="profile-handle">@Rikan-Saha</span>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square arrow-hint"></i>
+              </a>
+
+              <a href="https://kaggle.com/Rikan-Saha" target="_blank" rel="noopener noreferrer" class="profile-link-card">
+                <div class="profile-icon kaggle-bg"><i class="fa-brands fa-kaggle"></i></div>
+                <div class="profile-info">
+                  <span class="profile-platform">Kaggle</span>
+                  <span class="profile-handle">@Rikan-Saha</span>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square arrow-hint"></i>
+              </a>
+
+              <a href="https://leetcode.com/u/RikS369/" target="_blank" rel="noopener noreferrer" class="profile-link-card">
+                <div class="profile-icon leetcode-bg"><i class="fa-solid fa-code"></i></div>
+                <div class="profile-info">
+                  <span class="profile-platform">LeetCode</span>
+                  <span class="profile-handle">@Rikan-Saha</span>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square arrow-hint"></i>
+              </a>
+            </div>
+
+            <div class="contact-resume-cta">
+              <a href="assets/Rikan_Saha_CV.pdf" class="btn btn-secondary btn-block" target="_blank" rel="noopener noreferrer" download="Rikan_Saha_CV.pdf">
+                <i class="fa-solid fa-file-pdf"></i> Download Official Resume
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#hero" class="brand-logo">
+          <span class="logo-bracket">&lt;</span><span class="logo-name">Rikan</span><span class="logo-dot">.</span><span class="logo-role">AI</span><span class="logo-bracket">/&gt;</span>
+        </a>
+        <p class="footer-tagline">Specialist @ Genpact | Analytics & AI Engineer | Model Risk Management</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#research">Research</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2026</span> Rikan Saha. Hosted on <a href="https://rikan-saha.github.io/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.</p>
+        <p class="footer-source">All information sourced directly from official curriculum vitae.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="back-to-top-btn" title="Back to Top" aria-label="Scroll to top of page">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
 </body>
 </html>
